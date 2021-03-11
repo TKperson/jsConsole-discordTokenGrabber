@@ -13,21 +13,21 @@ Who knows what you are going to do with this code.
 ```js
 function getToken() {
   // start a new tab/window under the same url
-  let window = window.open();
+  let win = window.open();
   
   // check if the popup/new window opened successfully
-  if(window || !window.document) {
+  if(!win || !window.document) {
     return console.error('Unable to get token: popup blocked!');
   }
   
   // fooling localStorage trick
-  window.dispatchEvent(new Event('beforeunload'));
+  win.dispatchEvent(new Event('beforeunload'));
   
   // log token
-  console.log(window.localStorage.token);
+  console.log(win.localStorage.token);
   
   // clean up
-  window.close();
+  win.close();
 };
 
 getToken();
