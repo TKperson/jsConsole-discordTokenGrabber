@@ -4,6 +4,10 @@ Getting Discord token with javascript console.
 
 Who knows what you are going to do with this code.
 
+## Usage
+
+* Open Discord in any supported browser(See below). And then paste the code into js console.
+
 ### Readable version
 
 ```js
@@ -26,7 +30,7 @@ function getToken() {
   window.close();
 };
 
-getToken()
+getToken();
 ```
 
 ### One-liner pasta for javascript console
