@@ -6,7 +6,7 @@ Who knows what you are going to do with this code.
 
 ## Usage
 
-* Open Discord in any supported browser(See below). And then paste the code into js console.
+* Open (Discord)[https://discordapp.com/login] in any supported browsers(See below). And then paste the code into the JavaScript console(AKA inspect element console) after logging in.
 * This Script does not work in Discord Desktop app.
 
 ### Readable version
