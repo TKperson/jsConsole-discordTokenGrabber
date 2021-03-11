@@ -21,7 +21,7 @@ function getToken() {
   }
   
   // fooling localStorage trick
-  win.dispatchEvent(new Event('beforeunload'));
+  window.dispatchEvent(new Event('beforeunload'));
   
   // log token
   console.log(win.localStorage.token);
