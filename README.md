@@ -7,6 +7,7 @@ Who knows what you are going to do with this code.
 ## Usage
 
 * Open Discord in any supported browser(See below). And then paste the code into js console.
+* This Script does not work in Discord Desktop app.
 
 ### Readable version
 
@@ -41,7 +42,12 @@ getToken();
 
 ### Tested browsers:
 
-| Browsers       | Supported    |
-| :------------- | -----------: |
-| Chrome         | :heavy_check_mark:   | 
-| Safari         | :x: |
+- :heavy_check_mark: Works with default browser settings
+- :x: Doesn't work with default browser settings
+- :grey_question: Will ask user to enable/allow popup window
+
+| Browsers       | Supported            |
+| :------------- | :------------------: |
+| Chrome         | :heavy_check_mark:   |
+| Safari         | :x:                  |
+| Firefox        | :grey_question:      |
