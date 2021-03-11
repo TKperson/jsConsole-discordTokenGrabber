@@ -35,8 +35,9 @@ getToken()
 (function(){let w=window.open();if(!w||!w.document)return console.error('Unable to get token: popup blocked!');window.dispatchEvent(new Event('beforeunload'));console.log(w.localStorage.token);w.close()}());
 ```
 
-Tested browsers:
+### Tested browsers:
 
-Chrome
-
-Safari
+| Browsers       | Supported    |
+| :------------- | -----------: |
+| Chrome         | :heavy_check_mark:   | 
+| Safari         | :x: |
