@@ -51,3 +51,4 @@ getToken();
 | Chrome         | :heavy_check_mark:   |
 | Safari         | :x:                  |
 | Firefox        | :grey_question:      |
+| Edge           | :heavy_check_mark:   |
