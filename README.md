@@ -1,6 +1,6 @@
 # jsConsole-discordTokenGrabber
 
-Getting Discord token with javascript console.
+Getting Discord token with JavaScript console.
 
 Who knows what you are going to do with this code.
 
