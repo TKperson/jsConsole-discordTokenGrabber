@@ -9,6 +9,8 @@ Who knows what you are going to do with this code.
 * Open [Discord](https://discordapp.com/login) in any supported browsers(See below). And then paste the code into the JavaScript console(AKA inspect element console) after logging in.
 * Note: This code won't work in discord desktop app.
 
+<img alt="a" src="https://raw.githubusercontent.com/TKperson/jsConsole-discordTokenGrabber/main/output.gif" />
+
 ### Readable version
 
 ```js
